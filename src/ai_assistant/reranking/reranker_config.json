@@ -1,0 +1,18 @@
+{
+  "model_id": "BAAI/bge-reranker-v2-m3",
+  "model_revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+  "device": "cuda",
+  "batch_size": 8,
+  "max_length": 512,
+  "candidate_strategy": "union_d10_b10",
+  "dense_candidate_k": 10,
+  "bm25_candidate_k": 10,
+  "rerank_candidate_limit": 20,
+  "output_top_k": 20,
+  "resolved_revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+  "transformers_version": "4.46.3",
+  "torch_version": "2.5.1+cu121",
+  "model_load_seconds": 5.77150019997498,
+  "selection_split": "dev",
+  "golden_dataset_version": "golden_retrieval_v2"
+}

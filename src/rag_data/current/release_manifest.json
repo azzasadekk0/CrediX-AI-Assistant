@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "status": "production_released",
+  "production_release_eligible": true,
+  "document_ids": [
+    "DOC1",
+    "DOC2",
+    "DOC3",
+    "DOC4",
+    "DOC5"
+  ],
+  "document_versions": [
+    [
+      "DOC1",
+      "DOC1_SHA256_2ad0d1e28228c5ac"
+    ],
+    [
+      "DOC2",
+      "DOC2_SHA256_a275fb9e3812a07d"
+    ],
+    [
+      "DOC3",
+      "DOC3_TEXT_SHA256_e9f34280c0b2df94"
+    ],
+    [
+      "DOC4",
+      "DOC4_TEXT_SHA256_5a616463d5fe9567"
+    ],
+    [
+      "DOC5",
+      "DOC5_TEXT_SHA256_9ce7dd7954293575"
+    ]
+  ],
+  "chunk_count": 384,
+  "parent_count": 85,
+  "dimensions": 1024,
+  "pending_verification_count": 0,
+  "release_blockers": [],
+  "candidate_integrity": "candidate_integrity_passed",
+  "artifacts_sha256": {
+    "index.faiss": "4ad025a9274c7f12cc2be4ce34e6f84c68f3b490f01bc07b5e130e15f5408bfa",
+    "faiss_id_map.json": "9068b617dcec5bee838faa65957e096ec669cb260d98fb93b6dc832916c0d299",
+    "chunks.jsonl": "3b0c43dd34f5b7aabcb00a3de8a01a61b405aefa5b902e883daababcf6b6db32",
+    "parents.jsonl": "4144f21e92042242d616fed42eff6e0dd4bbaa161efcbec4a731e88c5a56d4ed",
+    "bm25_corpus.jsonl": "ac130edc8b8dd504f829b253407305a7ec295b400c3008cdda8b020549c8e5b6",
+    "embedding_config.json": "4a9a4d784ee423e51a87f32a35b5d560d816b125814929499e493df339508ec4",
+    "search_index_config.json": "e5cdab07adafdb638598b3b7b6015d68b16273e85c1e368986effe5d252841b4"
+  },
+  "release_status": "production_released",
+  "chunks_with_missing_page_references": 0,
+  "verified_chunk_count": 384,
+  "page_mapping_review_status": "approved_with_ai_assisted_matches",
+  "approved_page_mapping_count": 384,
+  "pending_page_mapping_count": 0
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "status": "approved_production",
+  "model_name": "BAAI/bge-m3",
+  "model_version": "5617a9f61b028005a4858fdac845db406aefb181",
+  "model_url": "https://huggingface.co/BAAI/bge-m3",
+  "model_license": "MIT",
+  "dimensions": 1024,
+  "distance_metric": "cosine",
+  "text_preprocessing": {
+    "input_field": "embedding_text",
+    "unicode_normalization": "NFC",
+    "strip_outer_whitespace": true,
+    "modify_legal_text": false
+  },
+  "query_prefix": null,
+  "document_prefix": null,
+  "normalize_embeddings": true,
+  "batch_size": 4,
+  "max_sequence_length": 8192,
+  "device": "cpu",
+  "model_library": "sentence-transformers",
+  "notes": "BGE-M3 (1024d), pinned to the recorded model revision, is approved for production and verified by the five-document hybrid smoke suite. The suite checks expected document retrieval and complete page citations; this is operational smoke certification.",
+  "config_sha256": "c3ec1c397d20106c9c8d0c049e8a005f5f306a24a0e868e207c758ae826109a2"
+}

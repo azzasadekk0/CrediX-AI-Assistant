@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "status": "approved_production",
+  "dense_backend": "faiss-cpu",
+  "dense_deployment": "portable_local_file",
+  "dense_index_format": "IndexFlatIP over L2-normalized float32 embeddings",
+  "distance_metric": "cosine",
+  "metadata_filter_support": "post-filtered by adapter over returned candidate pool",
+  "bm25_backend": "CrediX deterministic Python BM25 implementation",
+  "bm25_tokenization": "Arabic diacritics/tatweel removed; alef/yaa normalized; English lowercased; no stemming or stopword removal",
+  "shared_chunk_record_format": "CrediX RAG Chunk Schema v1",
+  "notes": "FAISS IndexFlatIP over L2-normalized BGE-M3 vectors plus the aligned CrediX BM25 corpus are the approved production hybrid search stack. Both use the same chunk IDs and were verified by the five-document smoke suite.",
+  "config_sha256": "029ef895d3d2cd19424bc9ccbedc5e26bffdc1ab7f9d3b6fbd1b7f297b4dbdcc"
+}

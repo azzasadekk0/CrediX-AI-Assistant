@@ -1,0 +1,7 @@
+{
+  "prompt_version": "grounded_v1",
+  "citation_required": true,
+  "answer_language_mode": "match_query",
+  "max_citation_repair_attempts": 1,
+  "grounding_policy": "context_pack_only"
+}

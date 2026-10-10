@@ -1,0 +1,6 @@
+{
+  "retrieval_passed": true,
+  "environment_override_used": false,
+  "index_path": "src/rag_data/current",
+  "note": "Validated against the repository sibling default path without CREDIX_RAG_INDEX_DIR."
+}

@@ -1,0 +1,10 @@
+{
+  "candidate_top_k": 15,
+  "expansion_strategy": "chunk_only",
+  "max_context_tokens": 2000,
+  "deduplicate_parents": false,
+  "neighbor_expansion": true,
+  "token_estimation_method": "whitespace_approx_v1",
+  "selection_split": "dev",
+  "golden_dataset_version": "golden_retrieval_v2"
+}

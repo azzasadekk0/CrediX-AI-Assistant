@@ -1,0 +1,40 @@
+{
+  "schema_version": "2.0",
+  "dataset_version": "golden_retrieval_v2",
+  "number_of_answerable_queries": 80,
+  "number_of_unanswerable_queries": 10,
+  "single_evidence_queries": 60,
+  "multi_evidence_queries": 20,
+  "query_type_counts": {
+    "ambiguous": 1,
+    "article_lookup": 4,
+    "code_switching": 2,
+    "colloquial": 6,
+    "legal_term": 10,
+    "multi_constraint": 26,
+    "natural_question": 19,
+    "negative_no_answer": 10,
+    "numeric_threshold": 10,
+    "paraphrase": 2
+  },
+  "difficulty_counts": {
+    "easy": 22,
+    "hard": 37,
+    "medium": 31
+  },
+  "document_coverage_counts": {
+    "DOC1": 15,
+    "DOC2": 16,
+    "DOC3": 18,
+    "DOC4": 14,
+    "DOC5": 17
+  },
+  "chunks_file_sha256": "3b0c43dd34f5b7aabcb00a3de8a01a61b405aefa5b902e883daababcf6b6db32",
+  "release_manifest_sha256": "14d0569eaae84a1e112dbd3b7c3ff0357af4b12a906e75b75d6ab8fe541d3203",
+  "split_counts": {
+    "dev": 56,
+    "test": 24,
+    "dev_no_answer": 7,
+    "test_no_answer": 3
+  }
+}

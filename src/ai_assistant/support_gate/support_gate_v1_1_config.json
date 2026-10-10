@@ -1,0 +1,6 @@
+{
+  "prompt_version": "evidence_support_gate_v1_1",
+  "decision_policy": "fail_closed_none",
+  "change_from_v1": "permit clear semantic entailment/paraphrase while retaining material-aspect checks and related-only rejection",
+  "selection_split": "evidence_support_calibration_v2_audited"
+}

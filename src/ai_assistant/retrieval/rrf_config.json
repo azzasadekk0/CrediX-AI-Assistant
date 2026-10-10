@@ -1,0 +1,10 @@
+{
+  "dense_candidate_k": 10,
+  "bm25_candidate_k": 10,
+  "fusion_top_k": 30,
+  "rrf_k": 20,
+  "dense_weight": 1.0,
+  "bm25_weight": 0.75,
+  "golden_dataset_version": "golden_retrieval_v2",
+  "selection_split": "dev"
+}

@@ -1,0 +1,7 @@
+{
+  "prompt_version": "evidence_support_gate_v1",
+  "decision_policy": "fail_closed_none",
+  "source_requirement_interface": ["required", "not_required", "unclear"],
+  "selection_split": "support_calibration_v1",
+  "benchmark_version": "evidence_support_calibration_v1"
+}
